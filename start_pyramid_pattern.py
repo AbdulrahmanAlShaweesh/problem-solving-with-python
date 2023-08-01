@@ -1,13 +1,12 @@
 
 
-n = 5 
+rows = 10 
 
-for i in range(0 , n) : 
+for i in range(rows) :
     
-    for j in range(0 , n-i-1) : 
-        print(end=' ')
-     
-    for j in range(0, i+1) : 
+    for j in range(rows - i - 1) :
+        print(end=' ') 
+    
+    for k in range(0, i+1) :
         print('*', end=' ')
     print('\n')
-    
