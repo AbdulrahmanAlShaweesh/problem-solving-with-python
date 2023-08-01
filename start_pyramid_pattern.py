@@ -1,6 +1,6 @@
 
 
-rows = 10 
+rows = 5
 
 for i in range(rows) :
     
